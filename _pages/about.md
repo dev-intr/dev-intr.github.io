@@ -9,4 +9,5 @@ best type of programming, which is why I use Github Pages and Jekyll to display
 my site. Without this, it'd be raw html...
 
 [Github Profile](https://github.com/dev-intr)
+
 Email me at: devintr (@t) proton.me
