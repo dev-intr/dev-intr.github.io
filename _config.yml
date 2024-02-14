@@ -1,7 +1,7 @@
 title: dev-intr
 
 
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -26,7 +26,7 @@ plugins:
 
 author:
   name   : "Device Interrupt"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/dev-intr.png"
   bio    : "Rust and stuff"
   links:
     - label: "Website"
