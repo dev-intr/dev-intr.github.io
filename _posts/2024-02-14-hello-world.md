@@ -1,6 +1,5 @@
 ---
 title: "Hello World"
-date: 2024-02-14
 layout: single
 tags:
     - ramblings
