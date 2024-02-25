@@ -183,12 +183,12 @@ protocol in another) but rather setting up a proxy that tunnels the data for us.
 Some modern tools exist to try to address some of the shortfalls discussed with
 SSH. Some of the top tools are: 
 
-1. (Chisel)[https://github.com/jpillora/chisel]: Chisel agents will use an HTTP connection to call back to a server
+1. [Chisel](https://github.com/jpillora/chisel): Chisel agents will use an HTTP connection to call back to a server
    that allows tunneling from the server through the clients. Similar to port
    forwarding in SSH, you must send data to a specific port on the server.
-2. (Ligolo-Ng)[https://github.com/nicocha30/ligolo-ng]: Agents callback to a server that sets up a tun interface and manages
+2. [Ligolo-Ng](https://github.com/nicocha30/ligolo-ng): Agents callback to a server that sets up a tun interface and manages
    your routing table to forward traffic through the tun interface.
-3. (Sshuttle)[https://github.com/sshuttle/sshuttle]: This is a hybrid VPN and SSH tunnel (at least that's how the docs
+3. [Sshuttle](https://github.com/sshuttle/sshuttle): This is a hybrid VPN and SSH tunnel (at least that's how the docs
    describe it). You login to another machine over SSH and it will uses `iptables` 
    rules to redirct specified traffic to a port listening on your machine that sends
    it over the SSH connection and then reaches out to your intended destination.
